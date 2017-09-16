@@ -39,6 +39,7 @@ setup(
             'mopidy-tracklist = mopidycli.cli:tracklist',
             'mopidy-shuffle = mopidycli.cli:shuffle',
             'mopidy-play-backend-uri = mopidycli.cli:play_backend_uri',
+	    'mopidy-stop = mopidycli.cli:stop',
         ],
     },
     classifiers=[
