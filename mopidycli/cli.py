@@ -62,6 +62,13 @@ def play():
 
     return getServer().core.playback.play()
 
+def stop():
+    '''stop the currently active track.
+
+    Calls PlaybackController.stop(None, None)'''
+
+    return getServer().core.playback.stop()
+
 def pause():
     '''Pause playback.
 
